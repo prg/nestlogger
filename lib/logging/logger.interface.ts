@@ -11,6 +11,7 @@ export interface ConfiguredTransport {
 }
 
 export interface LoggerOptions {
+  level: string;
   serviceName: string;
   path?: string;
   timeFormat?: string;
