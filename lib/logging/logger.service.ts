@@ -7,6 +7,7 @@ export class LoggerService {
 
   public static DEFAULT_TIME_FORMAT = "HH:mm:ss";
   private static DEFAULT_LOGGER_OPTIONS: LoggerOptions = {
+    level: "info",
     serviceName: "log",
     timeFormat: LoggerService.DEFAULT_TIME_FORMAT,
     fileDatePattern: "YYYY-MM-DD",
