@@ -35,6 +35,7 @@
     "build": "rimraf dist && tsc",
     "test": "jest",
     "prepublishOnly": "npm run build",
+	"prepare": "npm run build",
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage",
     "webpack": "webpack --config webpack.config.js"
